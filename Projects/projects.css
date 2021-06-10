@@ -29,6 +29,14 @@
 	color: white!important;
 }
 
+.navbar {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: left;
+	justify-content: space-between;
+	padding: 0.5rem 1rem;
+}
+
 .navbar-toggler {
 	color: white! important;
 	border: none!important;
@@ -53,23 +61,6 @@
 	font-size: 16px;
 }
 
-@media only screen and (max-width: 1000px) {
-
-	.navbar {
-		background-color: rgba(0,0,0,0.8);
-		color: white;
-	}
-	.navbar-nav a{
-		margin: 0px 5px 0 17px;
-		margin-top: 30px;
-	}
-	.nav-link:hover {
-		border-bottom: none;
-	}
-	.intro {
-		padding-top: 130px;
-	}
-}
 
 /*Facilities*/
 #facilities {
@@ -131,7 +122,7 @@ width:100%;
 position:absolute;
 }
 
-/*footer*/
+/*Footer*/
 .footer-basic {
   padding:40px 0;
   background-color:#ffffff;
@@ -190,4 +181,43 @@ position:absolute;
   font-size:13px;
   color:#aaa;
   margin-bottom:0;
+}
+
+
+/*Small Devices*/
+@media only screen and (max-width: 1000px) {
+
+	.navbar {
+		background-color: rgba(0,0,0,0.8);
+		color: white;
+	}
+	.navbar-nav a{
+		margin: 0px 5px 0 17px;
+		margin-top: 30px;
+	}
+	.nav-link:hover {
+		border-bottom: none;
+	}
+	.intro {
+		padding-top: 130px;
+	}
+}
+
+@media only screen and (max-width: 40em) {
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+ 
+    .card {
+        flex: 0 1 calc(50% - 1em);
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+	.jumbotron{
+		height: 320vh;
+	}
 }

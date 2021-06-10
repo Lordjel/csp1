@@ -70,9 +70,10 @@
 
 #facilities h1 {
 	font-weight: 900;
-	font-size: 60px;
+	font-size: 55px;
 	padding-bottom: 5px;
 	color: white;
+	text-align: center;
 }
 
 .title {
@@ -208,3 +209,9 @@
   		padding-top: 0px;
   	}
   }
+
+  @media only screen and (max-width: 600px) {
+	.jumbotron{
+		height: 400vh;
+	}
+}
