@@ -29,6 +29,14 @@
 	color: white!important;
 }
 
+.navbar {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: left;
+	justify-content: space-between;
+	padding: 0.5rem 1rem;
+}
+
 .navbar-toggler {
 	color: white! important;
 	border: none!important;
@@ -53,11 +61,11 @@
 	font-size: 16px;
 }
 
+/*Small devices*/
 @media only screen and (max-width: 1000px) {
 
 	.navbar {
 		background-color: rgba(0,0,0,0.8);
-		color: white;
 	}
 	.navbar-nav a{
 		margin: 0px 5px 0 17px;
@@ -66,9 +74,15 @@
 	.nav-link:hover {
 		border-bottom: none;
 	}
-	.intro {
-		padding-top: 130px;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+		
 	}
+
+
 }
 
 /*Facilities*/
@@ -79,7 +93,7 @@
 
 #facilities h1 {
 	font-weight: 900;
-	font-size: 80px;
+	font-size: 50px;
 	padding-bottom: 5px;
 	color: white;
 }
@@ -96,6 +110,7 @@
 
 .card {
 	margin: 20px 10px;
+	width: 100%;;
 }
 
 .card-body a{
@@ -116,23 +131,17 @@
 	font-size: 30px;
 }
 
-/*Map*/
-.map-container-5{
-overflow:hidden;
-padding-bottom:56.25%;
-position:relative;
-height:0;
+/*small devices card*/
+.col-sm-12 {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
 }
-.map-container-5 iframe{
-left:0;
-top:0;
-height:100%;
-width:100%;
-position:absolute;
-}
+
 
 footer{
  display: flex;
+ flex-wrap: wrap;
 }
 
 footer {

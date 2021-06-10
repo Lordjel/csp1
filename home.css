@@ -5,10 +5,11 @@
 	font-size: 20px;
 }
 
+
 /*Jumbotron*/
 .jumbotron {
 	background-image: url(bg2.jpeg);
-	height: 100vh;
+	height: 120vh;
 	background-size: cover;
 	background-position: center;
 	color: white;
@@ -22,6 +23,7 @@
 	margin-top: 30px;
 	font-size: 30px;
 	line-height: 1.5;
+	width: 100%;
 }
 
 .text {
@@ -95,39 +97,6 @@
 	font-size: 16px;
 }
 
-/*Small devices*/
-@media only screen and (max-width: 1000px) {
-
-	.navbar {
-		background-color: rgba(0,0,0,0.8);
-	}
-	.navbar-nav a{
-		margin: 0px 5px 0 17px;
-		margin-top: 30px;
-	}
-	.nav-link:hover {
-		border-bottom: none;
-	}
-	.intro {
-		padding-top: 130px;
-	}
-}
-
-@media only screen and (max-width: 600px) {
-	.text {
-		font-size: 26px;
-		line-height: 1.7;
-	}
-	.intro {
-		padding-top: 100px;
-	}
-	.intro img {
-		width: 200px;
-		padding-top: 0px;
-	}
-}
-
-
 footer{
  display: flex;
 }
@@ -139,4 +108,39 @@ footer {
 
 footer {
   display:inline-block;
+ }
+
+ /*Small devices*/
+ @media only screen and (max-width: 1000px) {
+
+ 	.navbar {
+ 		background-color: rgba(0,0,0,0.8);
+ 	}
+ 	.navbar-nav a{
+ 		margin: 0px 5px 0 17px;
+ 		margin-top: 30px;
+ 	}
+ 	.nav-link:hover {
+ 		border-bottom: none;
+ 	}
+ 	.intro {
+ 		padding-top: 130px;
+ 	}
+ 	.jumbotron {
+ 		
+ 	}
+ }
+
+ @media only screen and (max-width: 600px) {
+ 	.text {
+ 		font-size: 10px;
+ 		line-height: 1.7;
+ 	}
+ 	.intro {
+ 		padding-top: 100px;
+ 	}
+ 	.intro img {
+ 		width: 200px;
+ 		padding-top: 0px;
+ 	}
  }
