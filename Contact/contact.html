@@ -48,21 +48,22 @@
 				</div>
 
 				<div class="row justify-content-center">	
-					<div class="col-md-6 col-sm-12">
+					<div class="col-md-6 col-12">
 						<div class="card text-center">
-							<img src="" class="card-img-top" alt="">
 							<div class="card-header">Contact Me</div>
 							<!-- Card body -->
 							<div class="card-body">
 								<h5 class="card-title">Lordjel Eleda</h5>
-								<img src="../Lordjel.jpg" class="rounded-circle" alt="Lordjel Eleda">
+								<img src="../Lordjel.jpg" class="rounded-circle img-fluid" alt="Lordjel Eleda">
 								<p class="card-text text-justify mb-0 mt-4">Feel free to contact me on any of these platforms</p>
 
+								<!-- Links -->
 								<ul class="list-group list-group-flush">
 								  <li class="list-group-item"><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fas fa-envelope-open mr-2"></i></a>lordjelkineleda@gmail.com</li>
 								  <li class="list-group-item"><a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter mr-2"></i></a>@BritUkLon</li>
 								  <li class="list-group-item"><a href="https://ph.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in mr-2"></i></a>Lordjel Kin Eleda</li>
 								</ul>
+
 									  <!-- Modal -->
 									  <button type="button" href="#" class="btn btn-outline-dark" data-toggle="modal" data-target="#staticBackdrop">Hire</button>
 									</div>
@@ -105,16 +106,21 @@
 							</div>
 						</div>
 
+						<!-- Map -->
 						<div class="col-md-6 col-sm-12">
 							<div class="card text-center">
 								<img src="" class="card-img-top" alt="">
 								<div class="card-body">
 									<h5 class="card-title">Location</h5>
-									<div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 200px">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.809711870302!2d120.98724491537355!3d14.60991328076394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9fe311ece61%3A0xfff13cf2f4387bc9!2sUniversity%20of%20Santo%20Tomas!5e0!3m2!1sen!2sph!4v1623287364378!5m2!1sen!2sph" width="400" height="200" style="border:0;" allowfullscreen=""></iframe>
-									</div>
+									<div class="mapouter">
+										<div class="gmap_canvas">
+											<iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=university of santo tomas&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+											<a href="https://www.fridaynightfunkin.net/">FNF PC</a>
+										</div>
+									</div>	
+								
 									<p class="card-text mt-4"><i class="fas fa-map-marked-alt mr-2"></i>España Blvd, Sampaloc, Manila, 1008 Metro Manila</p>
-									
+
 								</div>
 							</div>
 						</div>
@@ -127,41 +133,21 @@
 </div>
 
 <!-- Footer -->
-<footer class="page-footer font-small">
-	<!-- Footer Links -->
-	  <div class="container">
-
-	    <!-- Grid row -->
-	    <div class="row">
-
-	    	<!-- Grid column -->
-	    	<div class="col-md-12 ">
-	    	  <div class=" flex-center">
-
-	    	   
-	    	    <!-- Twitter -->
-	    	    <a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter mr-md-5 mr-3 fa-2x"></i></a>
-	    	    <!-- Google +-->
-	    	    <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fas fa-envelope-open mr-md-5 mr-3 fa-2x"></i></a>
-	    	    <!--Linkedin -->
-	    	    <a href="https://ph.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in mr-md-5 mr-3 fa-2x"></i></a>
-	    	  </div>
-	    	</div>
-	    	<!-- Grid column -->
-
-
-	     
-	    </div>
-	    <!-- Grid row -->
-
-	  </div>
-	  <!-- Footer Links -->
-
-	<!-- Copyright -->
-	<div class="footer-copyright text-center">© 2021 Lordjel Eleda | Full Stack Web Developer
-	</div>
-	<!-- Copyright -->
-</footer>
+	<div class="footer-basic">
+	    <footer>
+	        <div class="social">
+	        	<a href="https://mail.google.com/mail/u/0/#inbox"><i class="fas fa-envelope-open fa-1x"></i></a>
+	        	<a href="https://twitter.com/home"><i class="fab fa-twitter fa-1x"></i></a>
+	        	<a href="https://ph.linkedin.com/"><i class="fab fa-linkedin-in fa-1x"></i></a>
+	        </div>
+	        <ul class="list-inline">
+	            <li class="list-inline-item"><a href="../home.html">Home</a></li>
+	            <li class="list-inline-item"><a href="../Projects/projects.html">Projects</a></li>
+	            <li class="list-inline-item"><a href="../About/about.html">About</a></li>
+	            <li class="list-inline-item"><a href="contact.html">Contact</a></li>
+	        </ul>
+	        <p class="copyright">Lordjel Kin Eleda © 2021</p>
+	    </footer>
 
 	   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
