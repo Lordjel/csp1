@@ -1,0 +1,146 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Mate SC', serif;
+	font-size: 20px;
+}
+
+/*Jumbotron*/
+.jumbotron {
+	background-image: url(../bg2.jpeg);
+	height: 140vh;
+	background-size: cover;
+	background-position: center;
+	border-radius: 0px!important;
+	text-align: center;
+
+}
+
+/*Navbar*/
+.nav-link {
+	color: white!important;
+	margin: 0 30px;
+	margin-top: 30px;
+	font-size: 25px;
+	font-weight: 600px;
+}
+
+.navbar-nav a {
+	color: white!important;
+}
+
+.navbar-toggler {
+	color: white! important;
+	border: none!important;
+	outline: none!important;
+}
+
+.navbar-toggler {
+	color: white;
+	font-size: 26px;
+}
+
+.nav-link:hover {
+	font-weight: 600px;
+	border-bottom: 2px solid white;
+	margin-bottom: -1px;
+}
+
+#header .btn {
+	border: 2px solid white;
+	margin-top: 20px;
+	padding: 6px 26px;
+	font-size: 16px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+	.navbar {
+		background-color: rgba(0,0,0,0.8);
+		color: white;
+	}
+	.navbar-nav a{
+		margin: 0px 5px 0 17px;
+		margin-top: 30px;
+	}
+	.nav-link:hover {
+		border-bottom: none;
+	}
+	.intro {
+		padding-top: 130px;
+	}
+}
+
+/*Facilities*/
+#facilities {
+	padding: 30px 0px;
+	margin-top: 60px;
+}
+
+#facilities h1 {
+	font-weight: 900;
+	font-size: 80px;
+	padding-bottom: 5px;
+	color: white;
+}
+
+.title {
+	text-align: center;
+	padding: 25px 0px;
+	margin-bottom: 30px;
+}
+
+.card-body {
+	box-shadow: 0 0 20px 7px rgba(0,0,0,0.3);
+	margin-bottom: 0px;
+}
+
+.card {
+	margin: 20px 10px;
+}
+
+.card-body a{
+	color: #0c7f90;
+	text-decoration: none;
+	font-size: 20px;
+	margin-top: auto;
+	font-weight: 600;
+}
+
+.card-body a:hover {
+	color: #63a6b0;
+	text-decoration: none;
+}
+
+.card-title {
+	font-weight: 600;
+	font-size: 30px;
+}
+
+/*Map*/
+.map-container-5{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-5 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+footer{
+ display: flex;
+}
+
+footer {
+  justify-content:center;
+  text-align:center;
+}
+
+footer {
+  display:inline-block;
+ }
