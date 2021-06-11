@@ -215,3 +215,9 @@
 		height: 400vh;
 	}
 }
+
+  @media only screen and (max-width: 1000px) {
+	.jumbotron{
+		height: 160vh;
+	}
+}
