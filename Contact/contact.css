@@ -221,8 +221,27 @@
  	}
  }
 
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 320px) {
 	.jumbotron{
 		height: 350vh;
+	}
+}
+
+  @media only screen and (min-width: 325px) {
+	.jumbotron{
+		height: 290vh;
+	}
+}
+
+/*Tablets*/
+  @media only screen and (min-width: 700px) {
+	.jumbotron{
+		height: 140vh;
+	}
+}
+
+  @media only screen and (min-width: 1000px) {
+	.jumbotron{
+		height: 140vh;
 	}
 }
